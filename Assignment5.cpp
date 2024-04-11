@@ -8,8 +8,12 @@ int main()
     float phy,chem,computer;
     cout<<"Enter the rollno of the student :";
     cin>>rollno;
-    cout<<"Enter the marks of physics,chemistry and computer Application :";
-    cin>>phy>>chem>>computer;
+    cout<<"Enter the marks of physics :";
+    cin>>phy;
+    cout<<"Enter the marks of Chemistry:";
+    cin>>chem;
+    cout<<"Enter the marks of Computer Application :";
+    cin>>computer;
     cout<<"Roll no :"<<rollno<<endl;
     cout<<"Marks of physic :"<<phy<<endl;
     cout<<"Marks of chemistry :"<<chem<<endl;
